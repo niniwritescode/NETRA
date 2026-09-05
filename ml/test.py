@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 model_path = BASE_DIR / 'best.pt'
 
 model = YOLO(str(model_path))
-results = model(r'C:\Users\NANDINI BHARDWAJ\OneDrive\Desktop\NETRA\ml\dataset-roboflow\valid\images\images_002.jpg', show=True)
+results = model(r'C:\Users\NANDINI BHARDWAJ\OneDrive\Desktop\NETRA\ml\dataset-roboflow\test\images\image_004.jpg', show=True)
 
 #print("Check the pop-up window! Press any key on your keyboard to close it.")
 cv2.waitKey(0)
